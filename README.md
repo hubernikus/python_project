@@ -17,7 +17,9 @@ source .venv/bin/activate
 ## Outline
 
 ### General Setup
+ - Setup .venv
  - Install and use the repository.
+ - What happens to 'git' if we install this ?
  - Inspect code
  - Create a new folder: shapes
  - new __init__.py file,  
@@ -57,15 +59,15 @@ source .venv/bin/activate
   - Make sure that the use case is meaningful and VERY intuitive! Do not try to come up with new fancy math / concepts(!)
 
 
-### Delete class / del / Control-C Handler
+### Delete class / del / Control-C Handler / Shutdown execution
  - __del__ 
  - __delete__
+	
+ Alternatives:
+ - Control-C handler
+ - On shutdown: @atexit.register
 
- Control-C handler
-
- - On shutdown:
- - @atexit.register
-
+###  
 
 
 ## Further Links
