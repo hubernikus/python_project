@@ -22,11 +22,23 @@ source .venv/bin/activate
  - What happens to 'git' if we install this ?
  - Inspect code
  - Create a new folder: shapes
- - new __init__.py file,  
+ - new __init__.py file,
+ - good naming (single sillable)
+
+### Gener Python Scripts
+- if (__name__) == __main__:
+  	...
+- imports
+- GLOBAL variables (how to name them, when to use them)
+- How to do imports, what options do we have?
 
 
 ### Create Shapes and Update Them
- - New base-class Shape(ABC): when is it good to create a base-class, (abstract_methods) 
+ - Create simple Pose (Point)
+  
+ - New base-class Shape(ABC): when is it good to create a base-class, (abstract_methods)
+
+ - TypeHints
 
  - create Rectangle (use property / setter). Use cases: check before assigning, easy computation, read-only property (surface)
 	- axes_length [property / setter]
@@ -36,7 +48,7 @@ source .venv/bin/activate
 	- @classmethod :  
 	- @staticmethod: create_unit_circle_points(number, radius)
 
-  Operator overloading: do not do it in python, just create two separate functions with hint what it does
+  Function overloading: do not do it in python, just create two separate functions with hint what it does
 
  - Add colors both to the Shape & to the point -> do plotting of the points
 
