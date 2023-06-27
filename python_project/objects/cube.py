@@ -12,7 +12,7 @@ class Cube:
         self.__hidden_axes = axes_length
 
     def __str__(self) -> str:
-        my_str = ""
+        my_str = "Cube-string:"
         my_str += str(self._private_axes)
         my_str += str(self.__hidden_axes)
         return my_str
@@ -25,11 +25,11 @@ class RedCube(Cube):
 
 def test_cube():
     new_cube = Cube(np.array([1, 0]), 0)
-    breakpoint()
-    print(new)
+
     print(new_cube._private_axes)
     print(new_cube._Cube__hidden_axes)
-    breakpoint()
+
+    print(new_cube)
 
 
 if __name__ == "__main__":
