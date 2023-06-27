@@ -1,4 +1,4 @@
-from python_package.pose import Pose
+from python_project.pose import Pose
 
 
 def main() -> None:

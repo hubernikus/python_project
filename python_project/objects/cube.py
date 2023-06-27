@@ -1,7 +1,7 @@
 from typing import Self
 
 import numpy as np
-from python_package.pose import Pose
+from python_project.pose import Pose
 
 
 class Cube:
