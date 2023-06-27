@@ -14,6 +14,16 @@ Enter the environment with:
 source .venv/bin/activate
 ```
 
+Install local repository:
+```shell
+pip install -e .
+```
+
+Install dependencies:
+``` shell
+pip install -r requirement.txt
+```
+
 ## Outline
 
 ### General Setup
