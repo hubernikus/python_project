@@ -1,1 +1,6 @@
 numpy
+ipython
+
+black
+flake8
+pytest
